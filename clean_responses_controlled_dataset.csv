@@ -1,0 +1,1350 @@
+record_id,condition,sequence_type,category,word_list,target_positions,correct_answer,predicted_answer,is_correct,full_response,prompt
+0,positive_control_1,A,fruits,"['banana', 'mirror', 'apple', 'keyboard', 'strawberry', 'book']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [banana mirror apple keyboard strawberry book]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [banana mirror apple keyboard strawberry book]
+    Answer: ("
+0,positive_control_1,B,cities,"['Toronto', 'computer', 'Rio', 'bottle', 'Cairo', 'lamp']","[0, 2, 4]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Toronto computer Rio bottle Cairo lamp]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Toronto computer Rio bottle Cairo lamp]
+    Answer: ("
+1,positive_control_1,A,fruits,"['watermelon', 'lamp', 'cherry', 'clock', 'orange', 'bicycle']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [watermelon lamp cherry clock orange bicycle]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [watermelon lamp cherry clock orange bicycle]
+    Answer: ("
+1,positive_control_1,B,animals,"['horse', 'lamp', 'rabbit', 'clock', 'cat', 'phone']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [horse lamp rabbit clock cat phone]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [horse lamp rabbit clock cat phone]
+    Answer: ("
+2,positive_control_1,A,fruits,"['pineapple', 'bottle', 'apple', 'lamp', 'cherry', 'book']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [pineapple bottle apple lamp cherry book]
+    Answer: (3)","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [pineapple bottle apple lamp cherry book]
+    Answer: ("
+2,positive_control_1,B,sports,"['tennis', 'bicycle', 'baseball', 'mirror', 'cycling', 'keyboard']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [tennis bicycle baseball mirror cycling keyboard]
+    Answer: (4)","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [tennis bicycle baseball mirror cycling keyboard]
+    Answer: ("
+3,positive_control_1,A,fruits,"['banana', 'computer', 'grape', 'keyboard', 'watermelon', 'lamp']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [banana computer grape keyboard watermelon lamp]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [banana computer grape keyboard watermelon lamp]
+    Answer: ("
+3,positive_control_1,B,professions,"['firefighter', 'keyboard', 'mechanic', 'mirror', 'architect', 'lamp']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [firefighter keyboard mechanic mirror architect lamp]
+    Answer: (4)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [firefighter keyboard mechanic mirror architect lamp]
+    Answer: ("
+4,positive_control_1,A,cities,"['Mumbai', 'phone', 'Berlin', 'keyboard', 'Rio', 'lamp']","[0, 2, 4]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Mumbai phone Berlin keyboard Rio lamp]
+    Answer: (2)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Mumbai phone Berlin keyboard Rio lamp]
+    Answer: ("
+4,positive_control_1,B,fruits,"['watermelon', 'clock', 'banana', 'chair', 'pineapple', 'bottle']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [watermelon clock banana chair pineapple bottle]
+    Answer: (3)","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [watermelon clock banana chair pineapple bottle]
+    Answer: ("
+5,positive_control_1,A,cities,"['Berlin', 'phone', 'Tokyo', 'mirror', 'London', 'book']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Berlin phone Tokyo mirror London book]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Berlin phone Tokyo mirror London book]
+    Answer: ("
+5,positive_control_1,B,animals,"['cat', 'computer', 'eagle', 'book', 'elephant', 'mirror']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [cat computer eagle book elephant mirror]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [cat computer eagle book elephant mirror]
+    Answer: ("
+6,positive_control_1,A,cities,"['Cairo', 'computer', 'Toronto', 'bicycle', 'Berlin', 'phone']","[0, 2, 4]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Cairo computer Toronto bicycle Berlin phone]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Cairo computer Toronto bicycle Berlin phone]
+    Answer: ("
+6,positive_control_1,B,sports,"['soccer', 'bottle', 'tennis', 'book', 'volleyball', 'lamp']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer bottle tennis book volleyball lamp]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer bottle tennis book volleyball lamp]
+    Answer: ("
+7,positive_control_1,A,cities,"['Toronto', 'keyboard', 'Cairo', 'computer', 'London', 'chair']","[0, 2, 4]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Toronto keyboard Cairo computer London chair]
+    Answer: (2)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Toronto keyboard Cairo computer London chair]
+    Answer: ("
+7,positive_control_1,B,professions,"['firefighter', 'bottle', 'architect', 'computer', 'pilot', 'phone']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [firefighter bottle architect computer pilot phone]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [firefighter bottle architect computer pilot phone]
+    Answer: ("
+8,positive_control_1,A,animals,"['cat', 'keyboard', 'eagle', 'computer', 'elephant', 'bicycle']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [cat keyboard eagle computer elephant bicycle]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [cat keyboard eagle computer elephant bicycle]
+    Answer: ("
+8,positive_control_1,B,fruits,"['grape', 'lamp', 'strawberry', 'phone', 'watermelon', 'mirror']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [grape lamp strawberry phone watermelon mirror]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [grape lamp strawberry phone watermelon mirror]
+    Answer: ("
+9,positive_control_1,A,animals,"['dolphin', 'keyboard', 'tiger', 'clock', 'snake', 'lamp']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dolphin keyboard tiger clock snake lamp]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dolphin keyboard tiger clock snake lamp]
+    Answer: ("
+9,positive_control_1,B,cities,"['Sydney', 'bicycle', 'Mumbai', 'clock', 'Paris', 'keyboard']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Sydney bicycle Mumbai clock Paris keyboard]
+    Answer: (3)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Sydney bicycle Mumbai clock Paris keyboard]
+    Answer: ("
+10,positive_control_1,A,animals,"['tiger', 'chair', 'elephant', 'bicycle', 'horse', 'clock']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [tiger chair elephant bicycle horse clock]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [tiger chair elephant bicycle horse clock]
+    Answer: ("
+10,positive_control_1,B,sports,"['cycling', 'clock', 'boxing', 'mirror', 'volleyball', 'book']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling clock boxing mirror volleyball book]
+    Answer: (4)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling clock boxing mirror volleyball book]
+    Answer: ("
+11,positive_control_1,A,animals,"['cat', 'clock', 'tiger', 'phone', 'rabbit', 'mirror']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [cat clock tiger phone rabbit mirror]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [cat clock tiger phone rabbit mirror]
+    Answer: ("
+11,positive_control_1,B,professions,"['chef', 'mirror', 'nurse', 'book', 'architect', 'lamp']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chef mirror nurse book architect lamp]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chef mirror nurse book architect lamp]
+    Answer: ("
+12,positive_control_1,A,sports,"['basketball', 'phone', 'boxing', 'computer', 'golf', 'keyboard']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [basketball phone boxing computer golf keyboard]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [basketball phone boxing computer golf keyboard]
+    Answer: ("
+12,positive_control_1,B,fruits,"['mango', 'bottle', 'peach', 'lamp', 'orange', 'chair']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [mango bottle peach lamp orange chair]
+    Answer: (3)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [mango bottle peach lamp orange chair]
+    Answer: ("
+13,positive_control_1,A,sports,"['basketball', 'mirror', 'golf', 'keyboard', 'hockey', 'chair']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [basketball mirror golf keyboard hockey chair]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [basketball mirror golf keyboard hockey chair]
+    Answer: ("
+13,positive_control_1,B,cities,"['Cairo', 'lamp', 'Berlin', 'book', 'Tokyo', 'bottle']","[0, 2, 4]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Cairo lamp Berlin book Tokyo bottle]
+    Answer: (2)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Cairo lamp Berlin book Tokyo bottle]
+    Answer: ("
+14,positive_control_1,A,sports,"['soccer', 'computer', 'boxing', 'mirror', 'baseball', 'bottle']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer computer boxing mirror baseball bottle]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer computer boxing mirror baseball bottle]
+    Answer: ("
+14,positive_control_1,B,animals,"['penguin', 'bottle', 'elephant', 'clock', 'dolphin', 'chair']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [penguin bottle elephant clock dolphin chair]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [penguin bottle elephant clock dolphin chair]
+    Answer: ("
+15,positive_control_1,A,sports,"['golf', 'book', 'swimming', 'computer', 'cycling', 'keyboard']","[0, 2, 4]",3,1,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [golf book swimming computer cycling keyboard]
+    Answer: (1)**
+####
+","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [golf book swimming computer cycling keyboard]
+    Answer: ("
+15,positive_control_1,B,professions,"['nurse', 'chair', 'lawyer', 'bicycle', 'architect', 'computer']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [nurse chair lawyer bicycle architect computer]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [nurse chair lawyer bicycle architect computer]
+    Answer: ("
+16,positive_control_1,A,professions,"['pilot', 'phone', 'lawyer', 'chair', 'engineer', 'lamp']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [pilot phone lawyer chair engineer lamp]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [pilot phone lawyer chair engineer lamp]
+    Answer: ("
+16,positive_control_1,B,fruits,"['orange', 'lamp', 'grape', 'bottle', 'pineapple', 'chair']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [orange lamp grape bottle pineapple chair]
+    Answer: (3)","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [orange lamp grape bottle pineapple chair]
+    Answer: ("
+17,positive_control_1,A,professions,"['doctor', 'clock', 'mechanic', 'bicycle', 'nurse', 'computer']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [doctor clock mechanic bicycle nurse computer]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [doctor clock mechanic bicycle nurse computer]
+    Answer: ("
+17,positive_control_1,B,cities,"['Berlin', 'lamp', 'Toronto', 'bicycle', 'Mumbai', 'book']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Berlin lamp Toronto bicycle Mumbai book]
+    Answer: (3)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Berlin lamp Toronto bicycle Mumbai book]
+    Answer: ("
+18,positive_control_1,A,professions,"['engineer', 'lamp', 'firefighter', 'phone', 'architect', 'chair']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [engineer lamp firefighter phone architect chair]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [engineer lamp firefighter phone architect chair]
+    Answer: ("
+18,positive_control_1,B,animals,"['rabbit', 'lamp', 'cat', 'clock', 'dolphin', 'keyboard']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [rabbit lamp cat clock dolphin keyboard]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [rabbit lamp cat clock dolphin keyboard]
+    Answer: ("
+19,positive_control_1,A,professions,"['chef', 'computer', 'doctor', 'book', 'pilot', 'chair']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chef computer doctor book pilot chair]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chef computer doctor book pilot chair]
+    Answer: ("
+19,positive_control_1,B,sports,"['cycling', 'lamp', 'golf', 'phone', 'boxing', 'computer']","[0, 2, 4]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling lamp golf phone boxing computer]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling lamp golf phone boxing computer]
+    Answer: ("
+20,positive_control_2,A,fruits,"['pineapple', 'clock', 'grape', 'computer', 'orange', 'phone']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [pineapple clock grape computer orange phone]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [pineapple clock grape computer orange phone]
+    Answer: ("
+20,positive_control_2,B,cities,"['bicycle', 'Toronto', 'bottle', 'Bangkok', 'keyboard', 'Sydney']","[1, 3, 5]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [bicycle Toronto bottle Bangkok keyboard Sydney]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [bicycle Toronto bottle Bangkok keyboard Sydney]
+    Answer: ("
+21,positive_control_2,A,fruits,"['watermelon', 'computer', 'orange', 'keyboard', 'banana', 'mirror']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [watermelon computer orange keyboard banana mirror]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [watermelon computer orange keyboard banana mirror]
+    Answer: ("
+21,positive_control_2,B,animals,"['lamp', 'horse', 'clock', 'tiger', 'phone', 'dog']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [lamp horse clock tiger phone dog]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [lamp horse clock tiger phone dog]
+    Answer: ("
+22,positive_control_2,A,fruits,"['peach', 'clock', 'strawberry', 'mirror', 'mango', 'keyboard']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [peach clock strawberry mirror mango keyboard]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [peach clock strawberry mirror mango keyboard]
+    Answer: ("
+22,positive_control_2,B,sports,"['chair', 'baseball', 'bottle', 'boxing', 'clock', 'swimming']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [chair baseball bottle boxing clock swimming]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [chair baseball bottle boxing clock swimming]
+    Answer: ("
+23,positive_control_2,A,fruits,"['peach', 'clock', 'grape', 'book', 'orange', 'lamp']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [peach clock grape book orange lamp]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [peach clock grape book orange lamp]
+    Answer: ("
+23,positive_control_2,B,professions,"['lamp', 'chef', 'clock', 'mechanic', 'phone', 'architect']","[1, 3, 5]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [lamp chef clock mechanic phone architect]
+    Answer: (4)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [lamp chef clock mechanic phone architect]
+    Answer: ("
+24,positive_control_2,A,cities,"['Mumbai', 'bottle', 'Tokyo', 'book', 'Toronto', 'chair']","[0, 2, 4]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Mumbai bottle Tokyo book Toronto chair]
+    Answer: (2)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Mumbai bottle Tokyo book Toronto chair]
+    Answer: ("
+24,positive_control_2,B,fruits,"['computer', 'cherry', 'mirror', 'banana', 'bicycle', 'apple']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [computer cherry mirror banana bicycle apple]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [computer cherry mirror banana bicycle apple]
+    Answer: ("
+25,positive_control_2,A,cities,"['Tokyo', 'bottle', 'Bangkok', 'chair', 'London', 'phone']","[0, 2, 4]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Tokyo bottle Bangkok chair London phone]
+    Answer: (2)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Tokyo bottle Bangkok chair London phone]
+    Answer: ("
+25,positive_control_2,B,animals,"['computer', 'snake', 'book', 'horse', 'chair', 'tiger']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [computer snake book horse chair tiger]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [computer snake book horse chair tiger]
+    Answer: ("
+26,positive_control_2,A,cities,"['Bangkok', 'phone', 'London', 'computer', 'Cairo', 'bottle']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Bangkok phone London computer Cairo bottle]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Bangkok phone London computer Cairo bottle]
+    Answer: ("
+26,positive_control_2,B,sports,"['keyboard', 'baseball', 'book', 'hockey', 'bicycle', 'volleyball']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [keyboard baseball book hockey bicycle volleyball]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [keyboard baseball book hockey bicycle volleyball]
+    Answer: ("
+27,positive_control_2,A,cities,"['Toronto', 'bicycle', 'London', 'lamp', 'Cairo', 'mirror']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Toronto bicycle London lamp Cairo mirror]
+    Answer: (3)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Toronto bicycle London lamp Cairo mirror]
+    Answer: ("
+27,positive_control_2,B,professions,"['mirror', 'engineer', 'bottle', 'chef', 'book', 'mechanic']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [mirror engineer bottle chef book mechanic]
+    Answer: (3)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [mirror engineer bottle chef book mechanic]
+    Answer: ("
+28,positive_control_2,A,animals,"['dog', 'keyboard', 'horse', 'clock', 'snake', 'lamp']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog keyboard horse clock snake lamp]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog keyboard horse clock snake lamp]
+    Answer: ("
+28,positive_control_2,B,fruits,"['mirror', 'mango', 'clock', 'banana', 'keyboard', 'pineapple']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [mirror mango clock banana keyboard pineapple]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [mirror mango clock banana keyboard pineapple]
+    Answer: ("
+29,positive_control_2,A,animals,"['dolphin', 'chair', 'horse', 'mirror', 'elephant', 'bicycle']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dolphin chair horse mirror elephant bicycle]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dolphin chair horse mirror elephant bicycle]
+    Answer: ("
+29,positive_control_2,B,cities,"['computer', 'Paris', 'clock', 'Rio', 'bottle', 'Bangkok']","[1, 3, 5]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [computer Paris clock Rio bottle Bangkok]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [computer Paris clock Rio bottle Bangkok]
+    Answer: ("
+30,positive_control_2,A,animals,"['eagle', 'bicycle', 'tiger', 'bottle', 'penguin', 'lamp']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [eagle bicycle tiger bottle penguin lamp]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [eagle bicycle tiger bottle penguin lamp]
+    Answer: ("
+30,positive_control_2,B,sports,"['phone', 'soccer', 'lamp', 'tennis', 'computer', 'boxing']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [phone soccer lamp tennis computer boxing]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [phone soccer lamp tennis computer boxing]
+    Answer: ("
+31,positive_control_2,A,animals,"['horse', 'computer', 'dolphin', 'chair', 'eagle', 'keyboard']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [horse computer dolphin chair eagle keyboard]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [horse computer dolphin chair eagle keyboard]
+    Answer: ("
+31,positive_control_2,B,professions,"['chair', 'lawyer', 'mirror', 'chef', 'clock', 'mechanic']","[1, 3, 5]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chair lawyer mirror chef clock mechanic]
+    Answer: (4)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chair lawyer mirror chef clock mechanic]
+    Answer: ("
+32,positive_control_2,A,sports,"['soccer', 'computer', 'hockey', 'book', 'boxing', 'phone']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer computer hockey book boxing phone]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer computer hockey book boxing phone]
+    Answer: ("
+32,positive_control_2,B,fruits,"['book', 'apple', 'chair', 'cherry', 'clock', 'grape']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [book apple chair cherry clock grape]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [book apple chair cherry clock grape]
+    Answer: ("
+33,positive_control_2,A,sports,"['soccer', 'book', 'volleyball', 'phone', 'baseball', 'chair']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer book volleyball phone baseball chair]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer book volleyball phone baseball chair]
+    Answer: ("
+33,positive_control_2,B,cities,"['phone', 'Paris', 'keyboard', 'Berlin', 'bicycle', 'Bangkok']","[1, 3, 5]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [phone Paris keyboard Berlin bicycle Bangkok]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [phone Paris keyboard Berlin bicycle Bangkok]
+    Answer: ("
+34,positive_control_2,A,sports,"['cycling', 'phone', 'tennis', 'keyboard', 'basketball', 'computer']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling phone tennis keyboard basketball computer]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling phone tennis keyboard basketball computer]
+    Answer: ("
+34,positive_control_2,B,animals,"['chair', 'tiger', 'phone', 'penguin', 'computer', 'rabbit']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [chair tiger phone penguin computer rabbit]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [chair tiger phone penguin computer rabbit]
+    Answer: ("
+35,positive_control_2,A,sports,"['soccer', 'computer', 'cycling', 'phone', 'boxing', 'bicycle']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer computer cycling phone boxing bicycle]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [soccer computer cycling phone boxing bicycle]
+    Answer: ("
+35,positive_control_2,B,professions,"['mirror', 'nurse', 'phone', 'chef', 'lamp', 'architect']","[1, 3, 5]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [mirror nurse phone chef lamp architect]
+    Answer: (4)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [mirror nurse phone chef lamp architect]
+    Answer: ("
+36,positive_control_2,A,professions,"['firefighter', 'phone', 'nurse', 'mirror', 'mechanic', 'bottle']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [firefighter phone nurse mirror mechanic bottle]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [firefighter phone nurse mirror mechanic bottle]
+    Answer: ("
+36,positive_control_2,B,fruits,"['chair', 'watermelon', 'bottle', 'apple', 'clock', 'strawberry']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [chair watermelon bottle apple clock strawberry]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [chair watermelon bottle apple clock strawberry]
+    Answer: ("
+37,positive_control_2,A,professions,"['firefighter', 'chair', 'architect', 'book', 'chef', 'clock']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [firefighter chair architect book chef clock]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [firefighter chair architect book chef clock]
+    Answer: ("
+37,positive_control_2,B,cities,"['chair', 'Berlin', 'bottle', 'Toronto', 'lamp', 'Paris']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [chair Berlin bottle Toronto lamp Paris]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [chair Berlin bottle Toronto lamp Paris]
+    Answer: ("
+38,positive_control_2,A,professions,"['engineer', 'chair', 'firefighter', 'clock', 'teacher', 'phone']","[0, 2, 4]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [engineer chair firefighter clock teacher phone]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [engineer chair firefighter clock teacher phone]
+    Answer: ("
+38,positive_control_2,B,animals,"['keyboard', 'elephant', 'bicycle', 'tiger', 'computer', 'dog']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [keyboard elephant bicycle tiger computer dog]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [keyboard elephant bicycle tiger computer dog]
+    Answer: ("
+39,positive_control_2,A,professions,"['mechanic', 'bottle', 'doctor', 'computer', 'engineer', 'book']","[0, 2, 4]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [mechanic bottle doctor computer engineer book]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [mechanic bottle doctor computer engineer book]
+    Answer: ("
+39,positive_control_2,B,sports,"['lamp', 'tennis', 'chair', 'basketball', 'bicycle', 'boxing']","[1, 3, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [lamp tennis chair basketball bicycle boxing]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [lamp tennis chair basketball bicycle boxing]
+    Answer: ("
+40,negative_control_1,A,fruits,"['watermelon', 'apple', 'orange', 'book', 'chair', 'phone']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [watermelon apple orange book chair phone]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [watermelon apple orange book chair phone]
+    Answer: ("
+40,negative_control_1,B,cities,"['mirror', 'bottle', 'book', 'Bangkok', 'Sydney', 'Tokyo']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [mirror bottle book Bangkok Sydney Tokyo]
+    Answer: (3)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [mirror bottle book Bangkok Sydney Tokyo]
+    Answer: ("
+41,negative_control_1,A,fruits,"['banana', 'orange', 'pineapple', 'computer', 'book', 'phone']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [banana orange pineapple computer book phone]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [banana orange pineapple computer book phone]
+    Answer: ("
+41,negative_control_1,B,animals,"['mirror', 'book', 'computer', 'horse', 'tiger', 'dolphin']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [mirror book computer horse tiger dolphin]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [mirror book computer horse tiger dolphin]
+    Answer: ("
+42,negative_control_1,A,fruits,"['mango', 'orange', 'apple', 'keyboard', 'phone', 'bottle']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [mango orange apple keyboard phone bottle]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [mango orange apple keyboard phone bottle]
+    Answer: ("
+42,negative_control_1,B,sports,"['computer', 'bottle', 'lamp', 'swimming', 'baseball', 'hockey']","[3, 4, 5]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [computer bottle lamp swimming baseball hockey]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [computer bottle lamp swimming baseball hockey]
+    Answer: ("
+43,negative_control_1,A,fruits,"['orange', 'cherry', 'watermelon', 'book', 'lamp', 'mirror']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [orange cherry watermelon book lamp mirror]
+    Answer: (3)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [orange cherry watermelon book lamp mirror]
+    Answer: ("
+43,negative_control_1,B,professions,"['clock', 'bottle', 'mirror', 'lawyer', 'firefighter', 'architect']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [clock bottle mirror lawyer firefighter architect]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [clock bottle mirror lawyer firefighter architect]
+    Answer: ("
+44,negative_control_1,A,cities,"['Paris', 'London', 'Bangkok', 'computer', 'book', 'clock']","[0, 1, 2]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Paris London Bangkok computer book clock]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Paris London Bangkok computer book clock]
+    Answer: ("
+44,negative_control_1,B,fruits,"['bottle', 'phone', 'lamp', 'strawberry', 'watermelon', 'orange']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [bottle phone lamp strawberry watermelon orange]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [bottle phone lamp strawberry watermelon orange]
+    Answer: ("
+45,negative_control_1,A,cities,"['Cairo', 'Toronto', 'Bangkok', 'lamp', 'phone', 'mirror']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Cairo Toronto Bangkok lamp phone mirror]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Cairo Toronto Bangkok lamp phone mirror]
+    Answer: ("
+45,negative_control_1,B,animals,"['bottle', 'mirror', 'clock', 'eagle', 'horse', 'dog']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [bottle mirror clock eagle horse dog]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [bottle mirror clock eagle horse dog]
+    Answer: ("
+46,negative_control_1,A,cities,"['Paris', 'Sydney', 'Rio', 'keyboard', 'book', 'chair']","[0, 1, 2]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Paris Sydney Rio keyboard book chair]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Paris Sydney Rio keyboard book chair]
+    Answer: ("
+46,negative_control_1,B,sports,"['clock', 'lamp', 'phone', 'baseball', 'tennis', 'swimming']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [clock lamp phone baseball tennis swimming]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [clock lamp phone baseball tennis swimming]
+    Answer: ("
+47,negative_control_1,A,cities,"['Paris', 'Rio', 'Tokyo', 'book', 'lamp', 'computer']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Paris Rio Tokyo book lamp computer]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Paris Rio Tokyo book lamp computer]
+    Answer: ("
+47,negative_control_1,B,professions,"['chair', 'computer', 'phone', 'mechanic', 'chef', 'teacher']","[3, 4, 5]",3,5,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chair computer phone mechanic chef teacher]
+    Answer: (5)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chair computer phone mechanic chef teacher]
+    Answer: ("
+48,negative_control_1,A,animals,"['dog', 'dolphin', 'elephant', 'lamp', 'mirror', 'chair']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog dolphin elephant lamp mirror chair]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog dolphin elephant lamp mirror chair]
+    Answer: ("
+48,negative_control_1,B,fruits,"['bottle', 'lamp', 'keyboard', 'peach', 'strawberry', 'banana']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [bottle lamp keyboard peach strawberry banana]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [bottle lamp keyboard peach strawberry banana]
+    Answer: ("
+49,negative_control_1,A,animals,"['dog', 'rabbit', 'tiger', 'book', 'clock', 'chair']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog rabbit tiger book clock chair]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog rabbit tiger book clock chair]
+    Answer: ("
+49,negative_control_1,B,cities,"['lamp', 'bottle', 'chair', 'Sydney', 'Bangkok', 'Mumbai']","[3, 4, 5]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [lamp bottle chair Sydney Bangkok Mumbai]
+    Answer: (2)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [lamp bottle chair Sydney Bangkok Mumbai]
+    Answer: ("
+50,negative_control_1,A,animals,"['tiger', 'snake', 'dog', 'book', 'computer', 'lamp']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [tiger snake dog book computer lamp]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [tiger snake dog book computer lamp]
+    Answer: ("
+50,negative_control_1,B,sports,"['keyboard', 'mirror', 'lamp', 'swimming', 'basketball', 'baseball']","[3, 4, 5]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [keyboard mirror lamp swimming basketball baseball]
+    Answer: (2)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [keyboard mirror lamp swimming basketball baseball]
+    Answer: ("
+51,negative_control_1,A,animals,"['penguin', 'tiger', 'cat', 'clock', 'bicycle', 'phone']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [penguin tiger cat clock bicycle phone]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [penguin tiger cat clock bicycle phone]
+    Answer: ("
+51,negative_control_1,B,professions,"['keyboard', 'bottle', 'phone', 'architect', 'teacher', 'mechanic']","[3, 4, 5]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [keyboard bottle phone architect teacher mechanic]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [keyboard bottle phone architect teacher mechanic]
+    Answer: ("
+52,negative_control_1,A,sports,"['baseball', 'tennis', 'golf', 'phone', 'book', 'clock']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [baseball tennis golf phone book clock]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [baseball tennis golf phone book clock]
+    Answer: ("
+52,negative_control_1,B,fruits,"['clock', 'book', 'bicycle', 'strawberry', 'mango', 'banana']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [clock book bicycle strawberry mango banana]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [clock book bicycle strawberry mango banana]
+    Answer: ("
+53,negative_control_1,A,sports,"['cycling', 'hockey', 'baseball', 'bicycle', 'lamp', 'keyboard']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling hockey baseball bicycle lamp keyboard]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling hockey baseball bicycle lamp keyboard]
+    Answer: ("
+53,negative_control_1,B,cities,"['book', 'chair', 'mirror', 'Rio', 'Sydney', 'Cairo']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [book chair mirror Rio Sydney Cairo]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [book chair mirror Rio Sydney Cairo]
+    Answer: ("
+54,negative_control_1,A,sports,"['basketball', 'swimming', 'baseball', 'mirror', 'lamp', 'bottle']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [basketball swimming baseball mirror lamp bottle]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [basketball swimming baseball mirror lamp bottle]
+    Answer: ("
+54,negative_control_1,B,animals,"['computer', 'keyboard', 'chair', 'dog', 'eagle', 'snake']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [computer keyboard chair dog eagle snake]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [computer keyboard chair dog eagle snake]
+    Answer: ("
+55,negative_control_1,A,sports,"['swimming', 'hockey', 'baseball', 'clock', 'bicycle', 'mirror']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [swimming hockey baseball clock bicycle mirror]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [swimming hockey baseball clock bicycle mirror]
+    Answer: ("
+55,negative_control_1,B,professions,"['phone', 'bottle', 'computer', 'nurse', 'lawyer', 'chef']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [phone bottle computer nurse lawyer chef]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [phone bottle computer nurse lawyer chef]
+    Answer: ("
+56,negative_control_1,A,professions,"['teacher', 'lawyer', 'mechanic', 'keyboard', 'computer', 'book']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [teacher lawyer mechanic keyboard computer book]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [teacher lawyer mechanic keyboard computer book]
+    Answer: ("
+56,negative_control_1,B,fruits,"['bicycle', 'chair', 'mirror', 'pineapple', 'watermelon', 'cherry']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [bicycle chair mirror pineapple watermelon cherry]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [bicycle chair mirror pineapple watermelon cherry]
+    Answer: ("
+57,negative_control_1,A,professions,"['doctor', 'mechanic', 'firefighter', 'bicycle', 'clock', 'bottle']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [doctor mechanic firefighter bicycle clock bottle]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [doctor mechanic firefighter bicycle clock bottle]
+    Answer: ("
+57,negative_control_1,B,cities,"['bicycle', 'clock', 'computer', 'London', 'Mumbai', 'Cairo']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [bicycle clock computer London Mumbai Cairo]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [bicycle clock computer London Mumbai Cairo]
+    Answer: ("
+58,negative_control_1,A,professions,"['lawyer', 'mechanic', 'firefighter', 'clock', 'lamp', 'chair']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [lawyer mechanic firefighter clock lamp chair]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [lawyer mechanic firefighter clock lamp chair]
+    Answer: ("
+58,negative_control_1,B,animals,"['bottle', 'phone', 'lamp', 'elephant', 'eagle', 'penguin']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [bottle phone lamp elephant eagle penguin]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [bottle phone lamp elephant eagle penguin]
+    Answer: ("
+59,negative_control_1,A,professions,"['teacher', 'architect', 'pilot', 'mirror', 'chair', 'keyboard']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [teacher architect pilot mirror chair keyboard]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [teacher architect pilot mirror chair keyboard]
+    Answer: ("
+59,negative_control_1,B,sports,"['computer', 'lamp', 'bottle', 'volleyball', 'tennis', 'boxing']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [computer lamp bottle volleyball tennis boxing]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [computer lamp bottle volleyball tennis boxing]
+    Answer: ("
+60,negative_control_2,A,fruits,"['orange', 'apple', 'cherry', 'mirror', 'computer', 'lamp']","[0, 1, 2]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [orange apple cherry mirror computer lamp]
+    Answer: (2)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [orange apple cherry mirror computer lamp]
+    Answer: ("
+60,negative_control_2,B,cities,"['lamp', 'phone', 'bicycle', 'Rio', 'Tokyo', 'Sydney']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [lamp phone bicycle Rio Tokyo Sydney]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [lamp phone bicycle Rio Tokyo Sydney]
+    Answer: ("
+61,negative_control_2,A,fruits,"['cherry', 'pineapple', 'mango', 'keyboard', 'lamp', 'mirror']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [cherry pineapple mango keyboard lamp mirror]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [cherry pineapple mango keyboard lamp mirror]
+    Answer: ("
+61,negative_control_2,B,animals,"['computer', 'clock', 'lamp', 'dog', 'rabbit', 'tiger']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [computer clock lamp dog rabbit tiger]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [computer clock lamp dog rabbit tiger]
+    Answer: ("
+62,negative_control_2,A,fruits,"['apple', 'pineapple', 'mango', 'chair', 'computer', 'book']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [apple pineapple mango chair computer book]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [apple pineapple mango chair computer book]
+    Answer: ("
+62,negative_control_2,B,sports,"['chair', 'clock', 'keyboard', 'hockey', 'boxing', 'tennis']","[3, 4, 5]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [chair clock keyboard hockey boxing tennis]
+    Answer: (2)**
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [chair clock keyboard hockey boxing tennis]
+    Answer: ("
+63,negative_control_2,A,fruits,"['cherry', 'orange', 'banana', 'computer', 'chair', 'clock']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [cherry orange banana computer chair clock]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [cherry orange banana computer chair clock]
+    Answer: ("
+63,negative_control_2,B,professions,"['book', 'phone', 'computer', 'lawyer', 'mechanic', 'chef']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [book phone computer lawyer mechanic chef]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [book phone computer lawyer mechanic chef]
+    Answer: ("
+64,negative_control_2,A,cities,"['London', 'Sydney', 'Paris', 'mirror', 'chair', 'clock']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [London Sydney Paris mirror chair clock]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [London Sydney Paris mirror chair clock]
+    Answer: ("
+64,negative_control_2,B,fruits,"['lamp', 'bicycle', 'mirror', 'banana', 'watermelon', 'apple']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [lamp bicycle mirror banana watermelon apple]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [lamp bicycle mirror banana watermelon apple]
+    Answer: ("
+65,negative_control_2,A,cities,"['Sydney', 'Mumbai', 'Rio', 'bottle', 'book', 'computer']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Sydney Mumbai Rio bottle book computer]
+    Answer: (3)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Sydney Mumbai Rio bottle book computer]
+    Answer: ("
+65,negative_control_2,B,animals,"['book', 'keyboard', 'chair', 'snake', 'dog', 'elephant']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [book keyboard chair snake dog elephant]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [book keyboard chair snake dog elephant]
+    Answer: ("
+66,negative_control_2,A,cities,"['Bangkok', 'London', 'Cairo', 'chair', 'clock', 'bottle']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Bangkok London Cairo chair clock bottle]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [Bangkok London Cairo chair clock bottle]
+    Answer: ("
+66,negative_control_2,B,sports,"['phone', 'clock', 'keyboard', 'golf', 'boxing', 'soccer']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [phone clock keyboard golf boxing soccer]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [phone clock keyboard golf boxing soccer]
+    Answer: ("
+67,negative_control_2,A,cities,"['London', 'Paris', 'Bangkok', 'computer', 'mirror', 'keyboard']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [London Paris Bangkok computer mirror keyboard]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [London Paris Bangkok computer mirror keyboard]
+    Answer: ("
+67,negative_control_2,B,professions,"['keyboard', 'computer', 'bottle', 'lawyer', 'firefighter', 'pilot']","[3, 4, 5]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [keyboard computer bottle lawyer firefighter pilot]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [keyboard computer bottle lawyer firefighter pilot]
+    Answer: ("
+68,negative_control_2,A,animals,"['cat', 'horse', 'tiger', 'bicycle', 'phone', 'mirror']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [cat horse tiger bicycle phone mirror]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [cat horse tiger bicycle phone mirror]
+    Answer: ("
+68,negative_control_2,B,fruits,"['bicycle', 'clock', 'lamp', 'banana', 'apple', 'mango']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [bicycle clock lamp banana apple mango]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [bicycle clock lamp banana apple mango]
+    Answer: ("
+69,negative_control_2,A,animals,"['dog', 'dolphin', 'tiger', 'phone', 'keyboard', 'lamp']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog dolphin tiger phone keyboard lamp]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog dolphin tiger phone keyboard lamp]
+    Answer: ("
+69,negative_control_2,B,cities,"['chair', 'keyboard', 'lamp', 'Bangkok', 'Tokyo', 'London']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [chair keyboard lamp Bangkok Tokyo London]
+    Answer: (3)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [chair keyboard lamp Bangkok Tokyo London]
+    Answer: ("
+70,negative_control_2,A,animals,"['dog', 'horse', 'tiger', 'chair', 'clock', 'bicycle']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog horse tiger chair clock bicycle]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [dog horse tiger chair clock bicycle]
+    Answer: ("
+70,negative_control_2,B,sports,"['computer', 'phone', 'chair', 'golf', 'soccer', 'volleyball']","[3, 4, 5]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [computer phone chair golf soccer volleyball]
+    Answer: (2)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [computer phone chair golf soccer volleyball]
+    Answer: ("
+71,negative_control_2,A,animals,"['tiger', 'horse', 'dog', 'chair', 'phone', 'bottle']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [tiger horse dog chair phone bottle]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [tiger horse dog chair phone bottle]
+    Answer: ("
+71,negative_control_2,B,professions,"['chair', 'mirror', 'computer', 'engineer', 'teacher', 'lawyer']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chair mirror computer engineer teacher lawyer]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [chair mirror computer engineer teacher lawyer]
+    Answer: ("
+72,negative_control_2,A,sports,"['volleyball', 'boxing', 'basketball', 'lamp', 'mirror', 'computer']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [volleyball boxing basketball lamp mirror computer]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [volleyball boxing basketball lamp mirror computer]
+    Answer: ("
+72,negative_control_2,B,fruits,"['mirror', 'keyboard', 'book', 'mango', 'apple', 'grape']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [mirror keyboard book mango apple grape]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [mirror keyboard book mango apple grape]
+    Answer: ("
+73,negative_control_2,A,sports,"['swimming', 'soccer', 'hockey', 'clock', 'book', 'bottle']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [swimming soccer hockey clock book bottle]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [swimming soccer hockey clock book bottle]
+    Answer: ("
+73,negative_control_2,B,cities,"['chair', 'mirror', 'clock', 'Paris', 'Cairo', 'Sydney']","[3, 4, 5]",3,2,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [chair mirror clock Paris Cairo Sydney]
+    Answer: (2)
+    <","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [chair mirror clock Paris Cairo Sydney]
+    Answer: ("
+74,negative_control_2,A,sports,"['volleyball', 'basketball', 'swimming', 'bottle', 'computer', 'phone']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [volleyball basketball swimming bottle computer phone]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [volleyball basketball swimming bottle computer phone]
+    Answer: ("
+74,negative_control_2,B,animals,"['mirror', 'bicycle', 'bottle', 'rabbit', 'elephant', 'cat']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [mirror bicycle bottle rabbit elephant cat]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [mirror bicycle bottle rabbit elephant cat]
+    Answer: ("
+75,negative_control_2,A,sports,"['cycling', 'golf', 'tennis', 'lamp', 'chair', 'clock']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling golf tennis lamp chair clock]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [cycling golf tennis lamp chair clock]
+    Answer: ("
+75,negative_control_2,B,professions,"['bicycle', 'bottle', 'mirror', 'architect', 'nurse', 'doctor']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [bicycle bottle mirror architect nurse doctor]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [bicycle bottle mirror architect nurse doctor]
+    Answer: ("
+76,negative_control_2,A,professions,"['engineer', 'pilot', 'teacher', 'lamp', 'clock', 'book']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [engineer pilot teacher lamp clock book]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [engineer pilot teacher lamp clock book]
+    Answer: ("
+76,negative_control_2,B,fruits,"['computer', 'keyboard', 'phone', 'watermelon', 'cherry', 'apple']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [computer keyboard phone watermelon cherry apple]
+    Answer: (3)**
+<|","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: fruits
+    List: [computer keyboard phone watermelon cherry apple]
+    Answer: ("
+77,negative_control_2,A,professions,"['pilot', 'teacher', 'mechanic', 'clock', 'bottle', 'bicycle']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [pilot teacher mechanic clock bottle bicycle]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [pilot teacher mechanic clock bottle bicycle]
+    Answer: ("
+77,negative_control_2,B,cities,"['phone', 'computer', 'clock', 'Toronto', 'Paris', 'Sydney']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [phone computer clock Toronto Paris Sydney]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: cities
+    List: [phone computer clock Toronto Paris Sydney]
+    Answer: ("
+78,negative_control_2,A,professions,"['architect', 'firefighter', 'teacher', 'chair', 'bottle', 'phone']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [architect firefighter teacher chair bottle phone]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [architect firefighter teacher chair bottle phone]
+    Answer: ("
+78,negative_control_2,B,animals,"['bottle', 'book', 'mirror', 'cat', 'snake', 'penguin']","[3, 4, 5]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [bottle book mirror cat snake penguin]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: animals
+    List: [bottle book mirror cat snake penguin]
+    Answer: ("
+79,negative_control_2,A,professions,"['architect', 'mechanic', 'chef', 'keyboard', 'bottle', 'clock']","[0, 1, 2]",3,3,True,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [architect mechanic chef keyboard bottle clock]
+    Answer: (3)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: professions
+    List: [architect mechanic chef keyboard bottle clock]
+    Answer: ("
+79,negative_control_2,B,sports,"['bicycle', 'book', 'chair', 'tennis', 'soccer', 'baseball']","[3, 4, 5]",3,4,False,"Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [bicycle book chair tennis soccer baseball]
+    Answer: (4)
+
+<","Count the number of words in the following list that match the given type, and put the numerical answer in parentheses.
+    Type: sports
+    List: [bicycle book chair tennis soccer baseball]
+    Answer: ("
