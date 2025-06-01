@@ -34,3 +34,5 @@ Same analyses as original, but over all intermediate layers of Falcon3-7B-Instru
 
 ##
 ### <a href="https://docs.google.com/document/d/1G1wDiawjMcs6DaLrHhZPidSTU1uPQRVvEoVfZheiOlg/edit?usp=sharing" target="_blank">Summary doc</a>
+
+Key results and takeaways. Additional details on dataset generation, experimental setup and analyses conducted.
