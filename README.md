@@ -24,7 +24,13 @@ Models benchmarked include *Mistral-7B-Instruct-v0.3, Llama-3.2-3B-Instruct, gpt
 - **Notebook**: patching-analyses-running-count.ipynb
 - **Controls dataset and responses**: controlled_counting_dataset.jsonl, clean_responses_controlled_dataset.csv
 
-Using two types of positive and negative controls, perform layer-wise activation patching at evenly spaced layers of the LLM to see if any of then show significant changes in task behaviour.
+Using two types of positive and negative controls each, perform layer-wise activation patching at evenly spaced layers of the LLM to see if any of then show significant changes in task behaviour.
+
+### Additional patching anlayses experiments
+- **Notebook**: patching-analyses-running-count-intermediate-layers.ipynb
+- **Controls dataset and responses**: intermediate_controlled_counting_dataset.jsonl, intermediate_clean_responses_controlled_dataset.csv
+
+Same analyses as original, but over all intermediate layers of Falcon3-7B-Instruct in the range 11-19. 
 
 ##
 ### <a href="https://docs.google.com/document/d/1G1wDiawjMcs6DaLrHhZPidSTU1uPQRVvEoVfZheiOlg/edit?usp=sharing" target="_blank">Summary doc</a>
